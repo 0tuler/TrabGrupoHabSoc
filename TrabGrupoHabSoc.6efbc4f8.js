@@ -19131,8 +19131,8 @@ function VideoComponent({ video }) {
 }
 _c = VideoComponent;
 function MenuBar({ names, selected, setS }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
-        className: "w-64 bg-zinc-900 border-r border-zinc-800 flex flex-col shrink-0 h-full",
+    return /* Lembrar de adicionar uma funcionalidade para esconder o menu na V2 */ /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("aside", {
+        className: "sm:w-[30%] bg-zinc-900 border-r border-zinc-800 flex flex-col shrink-0 h-full",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "p-4 border-b border-zinc-800",
@@ -19141,12 +19141,12 @@ function MenuBar({ names, selected, setS }) {
                     children: "T\xf3picos"
                 }, void 0, false, {
                     fileName: "src/App.tsx",
-                    lineNumber: 47,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -19159,19 +19159,19 @@ function MenuBar({ names, selected, setS }) {
                         children: n
                     }, n, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 56,
+                        lineNumber: 57,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 52,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 5
     }, this);
 }
@@ -19205,18 +19205,18 @@ function App() {
                             children: "V1"
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 96,
+                            lineNumber: 97,
                             columnNumber: 30
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.tsx",
-                    lineNumber: 95,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/App.tsx",
-                lineNumber: 94,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -19228,7 +19228,7 @@ function App() {
                         setS: setSelected
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 101,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
@@ -19237,7 +19237,7 @@ function App() {
                             video: video_hashlist[selected]
                         }, void 0, false, {
                             fileName: "src/App.tsx",
-                            lineNumber: 105,
+                            lineNumber: 106,
                             columnNumber: 13
                         }, this) : /* Estado vazio, antes do usuario selecionar o video */ /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "flex flex-col items-center text-center p-8 text-zinc-500",
@@ -19247,7 +19247,7 @@ function App() {
                                     children: "Nenhum t\xf3pico selecionado"
                                 }, void 0, false, {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 110,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -19255,30 +19255,30 @@ function App() {
                                     children: "Selecione um t\xf3pico no menu lateral para visualizar o v\xeddeo."
                                 }, void 0, false, {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/App.tsx",
-                            lineNumber: 108,
+                            lineNumber: 109,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.tsx",
-                        lineNumber: 103,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/App.tsx",
-                lineNumber: 100,
+                lineNumber: 101,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/App.tsx",
-        lineNumber: 93,
+        lineNumber: 94,
         columnNumber: 5
     }, this);
 }

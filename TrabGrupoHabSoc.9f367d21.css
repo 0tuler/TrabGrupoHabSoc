@@ -356,10 +356,6 @@
     height: 100vh;
   }
 
-  .w-64 {
-    width: calc(var(--spacing) * 64);
-  }
-
   .w-full {
     width: 100%;
   }
@@ -587,6 +583,12 @@
 
     .hover\:text-zinc-200:hover {
       color: var(--color-zinc-200);
+    }
+  }
+
+  @media (width >= 40rem) {
+    .sm\:w-\[30\%\] {
+      width: 30%;
     }
   }
 
