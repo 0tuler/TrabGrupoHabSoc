@@ -42,7 +42,8 @@ function MenuBar({
   setS: (val: string) => void;
 }) {
   return (
-    <aside className="w-64 bg-zinc-900 border-r border-zinc-800 flex flex-col shrink-0 h-full">
+    /* Lembrar de adicionar uma funcionalidade para esconder o menu na V2 */
+    <aside className="sm:w-[30%] bg-zinc-900 border-r border-zinc-800 flex flex-col shrink-0 h-full">
       <div className="p-4 border-b border-zinc-800">
         <h2 className="text-sm font-bold uppercase tracking-wide text-zinc-500">
           Tópicos
